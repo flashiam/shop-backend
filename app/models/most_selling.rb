@@ -1,0 +1,2 @@
+class MostSelling < ApplicationRecord
+end

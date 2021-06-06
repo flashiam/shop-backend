@@ -1,0 +1,15 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  img: MyString
+  code: MyString
+  value: 9.99
+  percent: false
+  validTill: 2021-05-15
+
+two:
+  img: MyString
+  code: MyString
+  value: 9.99
+  percent: false
+  validTill: 2021-05-15

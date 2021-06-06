@@ -1,0 +1,29 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  gross: 9.99
+  net: 9.99
+  taxes: 9.99
+  discount: 9.99
+  promo: MyString
+  orderDate: 2021-05-12
+  orderTime: 2021-05-12 15:36:35
+  payOrderId: MyString
+  payPaymentId: MyString
+  paymentStatus: false
+  dileveryStatus: 
+  dileveryTime: 2021-05-12 15:36:35
+
+two:
+  gross: 9.99
+  net: 9.99
+  taxes: 9.99
+  discount: 9.99
+  promo: MyString
+  orderDate: 2021-05-12
+  orderTime: 2021-05-12 15:36:35
+  payOrderId: MyString
+  payPaymentId: MyString
+  paymentStatus: false
+  dileveryStatus: 
+  dileveryTime: 2021-05-12 15:36:35

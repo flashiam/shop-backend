@@ -1,0 +1,25 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  name: MyString
+  token: 1
+  email: MyString
+  city: MyString
+  profile: MyString
+  points: 1
+  location: MyString
+  lat: 1.5
+  long: 1.5
+  last_updated: 2021-05-11 17:59:35
+
+two:
+  name: MyString
+  token: 1
+  email: MyString
+  city: MyString
+  profile: MyString
+  points: 1
+  location: MyString
+  lat: 1.5
+  long: 1.5
+  last_updated: 2021-05-11 17:59:35
