@@ -62,3 +62,4 @@ gem 'unicorn'
 
 # gem 'puma'
 
+gem 'rack-cors'
