@@ -2,8 +2,9 @@ class OrderController < ApplicationController
     def createOrder
         create = params[:data]
         payOrder = Razorpay::Order.create amount: create[:net].round*100, currency: "INR", receipt: "TEST"
-        
+        ids = Order.all.count() + 1
         order = Order.create(
+            id: ids,
             gross: create[:gross],
             net: create[:net],
             taxes: create[:taxes],
@@ -19,7 +20,7 @@ class OrderController < ApplicationController
             orderItems: create[:items]
             
         )
-        render :json => {:token => params[:token], :data => {:payOrderId => payOrder.id, :orderId => order.id} }
+        render :json => {:token => params[:token], :data => {:payOrderId => payOrder.id, :orderId => order} }
     end
 
     def checkOrder
